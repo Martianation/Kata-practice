@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 767px) {
+@media (320px <= width < 768px) {
   body {
       margin: 0;
       padding: 0;
@@ -9,7 +9,7 @@
       }
 }
 
-@media (min-width: 768px) and (max-width: 1119px) {
+@media (768px <= width < 1120px) {
   body {
       margin: 0;
       padding: 0;
@@ -20,7 +20,7 @@
       }
 }
 
-@media (min-width: 1120px) and (max-width: 2100px) {
+@media (1120px <= width < 2100px) {
   body {
       margin: 0;
       padding: 0;
@@ -47,7 +47,7 @@
   margin-left: 16px;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (320px <= width < 768px) {
   .upper-menu {
       max-height: 88px;
       max-width: auto; 
@@ -73,7 +73,7 @@
       }
 }
 
-@media (min-width: 768px) and (max-width:1119px) {
+@media (768px <= width < 1120px) {
   .upper-menu {
       max-height: 88px;
       max-width: auto;
@@ -109,7 +109,7 @@
       }
 }
 
-@media (min-width: 1120px) and (max-width: 2100px) {
+@media (1120px <= width < 2100px) {
   .upper-menu {
       display: flex;
       justify-content: end;
@@ -161,7 +161,7 @@
   padding: 0;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (320px <= width < 768px) {
   .first-block {
       padding: 24px 0 35px 0;
       max-height: 509px;
@@ -169,7 +169,7 @@
       }
 }
 
-@media (min-width: 768px) and (max-width:1119px) {
+@media (768px <= width < 1120px) {
   .first-block {
       flex-direction: column;
       overflow: hidden;
@@ -180,7 +180,7 @@
       }
 }
 
-@media (min-width: 1120px) and (max-width: 2100px) {
+@media (1120px <= width < 2100px) {
   .first-block {
       flex-direction: column;
       padding: 42px 0 39px 0;
@@ -206,19 +206,19 @@
   letter-spacing: -0.6px; 
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (320px <= width < 768px) {
   .first-block__text {
       margin-left: 12px;
       }
 }
 
-@media (min-width: 768px) and (max-width: 1119px) {
+@media (768px <= width < 1120px) {
   .first-block__text {
       margin-left: 20px;
       }
 }
 
-@media (min-width: 1120px) and (max-width: 2100px) {
+@media (1120px <= width < 2100px) {
   .first-block__text {
       margin-left: 30px;
       }
@@ -260,7 +260,7 @@
   background: linear-gradient(270deg, #F8F8F8 34%, rgba(248, 248, 248, 0.0001) 100%);
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (320px <= width < 768px) {
   .first-block__slide-menu {
       padding: 16px 0 0 16px;
       max-width: 504px;
@@ -282,7 +282,7 @@
       }
 }
 
-@media (min-width: 768px) and (max-width: 1119px) {
+@media (768px <= width < 1120px) {
   .first-block__slide-menu {
       padding: 32px 0 0 24px;
       max-width: 732px;
@@ -296,7 +296,7 @@
       }
 }
 
-@media (min-width: 1120px) and (max-width: 2100px) {
+@media (1120px <= width < 2100px) {
   .first-block__slide-menu {
       min-width: 1096px;
       margin: 8px 0 7px 32px;
@@ -327,7 +327,7 @@
     text-align: start;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (320px <= width < 768px) {
   .first-block__main-block {
       margin-top: 0;
       width: auto;
@@ -347,7 +347,7 @@
       }
 }
 
-@media (min-width: 768px) and (max-width: 1119px) {
+@media (768px <= width < 1120px) {
   .first-block__main-block {
       margin: 32px 25px  40px 24px;
       width: 720px;
@@ -367,7 +367,7 @@
       }
 }
 
-@media (min-width: 1120px) and (max-width: 2100px) {
+@media (1120px <= width < 2100px) {
   .first-block__main-block {
       padding: 0 28.65px 0 34px;
       height: auto;
@@ -386,14 +386,14 @@
       }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (320px <= width < 768px) {
     .text-extra,
     .text-extra2 {
       display: none;
       }
 }
 
-@media (min-width: 768px) and (max-width: 1119px) {
+@media (768px <= width < 1120px) {
     .text-extra2 {
       display: none;
       }
@@ -421,19 +421,19 @@
   margin-right: auto;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (320px <= width < 768px) {
   .first-block__read-link {
       margin: 16px 0 16px 0;
       }
 }
 
-@media (min-width: 768px) and (max-width: 1119px) {
+@media (768px <= width < 1120px) {
   .first-block__read-link {
       margin-top: 10px;
       }
 }
 
-@media (min-width: 1120px) and (max-width: 2100px) {
+@media (1120px <= width < 2100px) {
   .first-block__read-link {
       margin-top: 13,78px;
       }
@@ -441,7 +441,7 @@
 
 /*--------------------КАРТИНКА CНИЗУ--------------------*/
 
-@media not ((min-width: 320px) and (max-width: 767px)) {
+@media not (320px <= width < 768px) {
  .first-block__img {
       margin-left: auto;
       }
@@ -451,13 +451,13 @@
       }
 }
 
-@media not ((min-width: 768px) and (max-width:1119px)) {
+@media not (768px <= width < 1120px) {
 .w768 {
       display: none;
       }
 }
 
-@media not ((min-width: 1120px) and (max-width: 2100px)) {
+@media not (1120px <= width < 2100px) {
 .w1120 {
       display: none;
       }
