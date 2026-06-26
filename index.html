@@ -3,80 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style13.css">
+    <link rel="stylesheet" href="css/style.css">
     <title class="title">CPS</title>
 </head>
-<body>
-
-<!--БЛОК ВЕРХНЕГО МЕНЮ-->
-
+<body class="cps">
     <header class="upper-menu">
-        <a href="#" class="upper-menu__icon burger" >
-            <img src="icons/icon-burger.svg" alt="menu">
+        <a class="upper-menu__icon-burger" href="#">
+            <img src="icons/icon-burger.svg">
         </a>
-        <img class="upper-menu__divider leftd"src="icons/divider.svg" alt="" width="2px" height="32px">
-        <img class="upper-menu__logo" src="icons/CPS-logo.svg" alt="CPS-logo">
-        <a href="#" class="upper-menu__icon call" >
-            <img src="icons/icon-call.svg" alt="call">
+        <img class="upper-menu__divider fade" src="icons/divider.svg">
+        <img class="upper-menu__logo" src="icons/CPS-logo.svg">
+<div class="upper-menu__clearfix"></div>
+        <a class="upper-menu__icon-fader call" href="#">
+            <img src="icons/icon-call.svg">
         </a>
-       <a href="#" class="upper-menu__icon chat" >
-            <img src="icons/icon-chat.svg" alt="chat">
+       <a class="upper-menu__icon-fader chat" href="#">
+            <img src="icons/icon-chat.svg">
         </a>
-        <a href="#" class="upper-menu__icon profile" >
-            <img src="icons/icon-profile.svg" alt="profile">
+        <a class="upper-menu__icon-fader profile" href="#">
+            <img src="icons/icon-profile.svg">
         </a>
-        <img class="upper-menu__divider rightd"src="icons/divider.svg" alt="" width="2px" height="32px">
-        <a href="#" class="upper-menu__icon repair">
+        <img class="upper-menu__divider" src="icons/divider.svg">
+        <a class="upper-menu__icon repair" href="#">
             <span class="upper-menu__text-fade">Оставить заявку</span>
-            <img src="icons/icon-repair.svg" class="upper-menu__repair" alt="Оставить заявку">
-        </a>           
-        <a href="#" class="upper-menu__icon checkstatus">
+            <img src="icons/icon-repair.svg" class="upper-menu__repair">
+        </a>
+        <a class="upper-menu__icon checkstatus" href="#">
             <span class="upper-menu__text-fade">Статус ремонта</span>
-            <img src="icons/icon-checkstatus.svg" alt="Статус ремонта">
+            <img src="icons/icon-checkstatus.svg">
         </a>
     </header>
-
-<!--ПЕРВЫЙ БЛОК-->
-
-<main>
-    <div class="first-block">
-
-<!--БЛОК УСЛУГИ И СЕРВИСЫ-->
-
-            <div class="first-block__title">
+   <main> 
+    <div class="block-title">
                 <img src="icons/highlight.svg">
-                <h1 class="first-block__text">Услуги и сервисы</h1>
-            </div>
+                <h1 class="block-title__text">Услуги и сервисы</h1>
+    </div>
+               
+    <div class="block-nav">
+                <div class="block-nav__fader"></div>
+                <button type="button" class="block-nav__button">Ремонтируемые бренды</button>
+                <button type="button" class="block-nav__button">Ремонтируемые устройства</button>
+                <button type="button" class="block-nav__button">Дополнительные услуги</button>
+                <button type="button" class="block-nav__button">Цены на услуги</button>
+                <button type="button" class="block-nav__button">Адреса сервисных центров</button>
+                <button type="button" class="block-nav__button">Специальные цены</button>
+                <button type="button" class="block-nav__button">Отзывы</button>
+                </div>
+    </div>
 
-<!--СЛАЙД МЕНЮ-->
-
-            <nav class="first-block__slide-menu">
-                <div class="first-block__fader"></div>
-                <button type="nav-button" class="first-block__button brands">Ремонтируемые бренды</button>
-                <button type="nav-button" class="first-block__button rep">Ремонтируемые устройства</button>
-                <button type="nav-button" class="first-block__button extra">Дополнительные услуги</button>
-                <button type="nav-button" class="first-block__button price">Цены на услуги</button>
-                <button type="nav-button" class="first-block__button adress">Адреса сервисных центров</button>
-                <button type="nav-button" class="first-block__button special">Специальные цены</button>
-                <button type="nav-button" class="first-block__button reviews">Отзывы</button>
-            </nav>
-
-<!--ГЛАВНЫЙ БЛОК-->
-
-        <div class="first-block__main-block">
-            <div class="first-block__text-container">
-                <p class="first-block__block-text text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.<br><br></p>
-                <p class="first-block__block-text text-extra">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</p>
-                <p class="first-block__block-text text-extra2">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
-                <a href="#" class="first-block__read-link">
+    <div class="main-block">
+            <div class="main-block__text-container">
+                <p class="main-block__block-text text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.<br></p>
+                <p class="main-block__block-text text-extra">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</p>
+                <p class="main-block__block-text text-extra2">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+                <a href="#" class="main-block__read-link">
                     <img src="icons/arrows.svg" class="first-block__read-arrows">Читать далее
                 </a>
             </div>
-            <img class="first-block__img w320" src="icons/Picture320.png" alt="">
-            <img class="first-block__img w768" src="icons/Picture768.png" alt="">
-            <img class="first-block__img w1120" src="icons/Picture1120.png" alt="">
-        </div>
+            <img class="main-block__image" src="icons/Picture1120.png" alt="">
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
 </main>    
 </body>
 </html>
