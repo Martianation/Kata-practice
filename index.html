@@ -2,87 +2,79 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title class="title">CPS</title>
+    <title>CPS</title>
 </head>
-<body class="cps">
-    <header class="upper-menu">
-        <a class="upper-menu__icon-burger" href="#">
-            <img src="icons/icon-burger.svg">
-        </a>
-        <img class="upper-menu__divider fade" src="icons/divider.svg">
-        <img class="upper-menu__logo" src="icons/CPS-logo.svg">
-<div class="upper-menu__clearfix"></div>
-        <a class="upper-menu__icon-fader call" href="#">
-            <img src="icons/icon-call.svg">
-        </a>
-       <a class="upper-menu__icon-fader chat" href="#">
-            <img src="icons/icon-chat.svg">
-        </a>
-        <a class="upper-menu__icon-fader profile" href="#">
-            <img src="icons/icon-profile.svg">
-        </a>
-        <img class="upper-menu__divider" src="icons/divider.svg">
-        <a class="upper-menu__icon repair" href="#">
-            <span class="upper-menu__text-fade">Оставить заявку</span>
-            <img src="icons/icon-repair.svg" class="upper-menu__repair">
-        </a>
-        <a class="upper-menu__icon checkstatus" href="#">
-            <span class="upper-menu__text-fade">Статус ремонта</span>
-            <img src="icons/icon-checkstatus.svg">
-        </a>
-    </header>
-   <main> 
-    <div class="block-title">
-                <img src="icons/highlight.svg">
-                <h1 class="block-title__text">Услуги и сервисы</h1>
-    </div>
-               
-    <div class="block-nav">
-                <div class="block-nav__fader"></div>
-                <button type="button" class="block-nav__button">Ремонтируемые бренды</button>
-                <button type="button" class="block-nav__button">Ремонтируемые устройства</button>
-                <button type="button" class="block-nav__button">Дополнительные услуги</button>
-                <button type="button" class="block-nav__button">Цены на услуги</button>
-                <button type="button" class="block-nav__button">Адреса сервисных центров</button>
-                <button type="button" class="block-nav__button">Специальные цены</button>
-                <button type="button" class="block-nav__button">Отзывы</button>
+
+<body>
+    <div class="aside-menu">
+
+        <!--ВЕРХНЕЕ МЕНЮ-->
+        <header>
+            <div class="upper-block">
+
+                <button type="round-btn" class="button upper-btn">
+                    <img src="icons/burger.svg" width="16" height="16" alt="">
+                </button>
+
+                <div class="logo">
+                    <img src="icons/logo.svg" alt="">
                 </div>
-    </div>
 
-    <div class="main-block">
-            <div class="main-block__text-container">
-                <p class="main-block__block-text text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.<br></p>
-                <p class="main-block__block-text text-extra">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</p>
-                <p class="main-block__block-text text-extra2">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
-                <a href="#" class="main-block__read-link">
-                    <img src="icons/arrows.svg" class="first-block__read-arrows">Читать далее
-                </a>
-            </div>
-            <img class="main-block__image" src="icons/Picture1120.png" alt="">
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                <button type="round-btn" class="button upper-btn">
+                    <img src="icons/search.svg" width="17" height="17" alt="">
+                </button>
         
+            </div>
+        </header>
 
+        <!--ВЫПАДАЮЩЕЕ МЕНЮ-->
+        <main class="main-menu-block">
 
-</main>    
+            <a href="#" class="main-menu"><img class="highlight" src="icons/highlight.svg">Ремонт техники</a>
+            <a href="#" class="main-menu"><img class="highlight" src="icons/highlight.svg">Услуги и сервисы</a>
+            <a href="#" class="main-menu"><img class="highlight" src="icons/highlight.svg">Корпоративным клиентам</a>
+            <a href="#" class="main-menu"><img class="highlight" src="icons/highlight.svg">Продавцам техники</a>
+            <a href="#" class="main-menu"><img class="highlight" src="icons/highlight.svg">Партнерам</a>
+            <a href="#" class="main-menu"><img class="highlight" src="icons/highlight.svg">Производителям</a>
+            <a href="#" class="main-menu"><img class="highlight" src="icons/highlight.svg">Наши сервисные центры</a>
+            <a href="#" class="main-menu"><img class="highlight" src="icons/highlight.svg">Контакты</a>
+            
+        </main>
+
+        <!--ПОДВАЛ ICONS-->
+        <footer class="footer-container">
+            <div class="footer-icons">
+                <button type="round-btn" class="button footer-btn">
+                    <img src="icons/call.svg" width="18" height="18" alt="">
+                </button>
+
+                <button type="round-btn" class="button footer-btn">
+                    <img src="icons/chat.svg" width="20" height="20" alt="">
+                </button>
+
+                <button type="round-btn" class="button footer-btn">
+                    <img src="icons/profile.svg" width="20" height="18" alt="">
+                </button>
+            </div>
+
+        <!--ПОДВАЛ INFO-->
+            <div class="info-text">
+                <p class="mail">mail@cps.com</p>
+                <p class="phone">8 800 890 8900</p>
+            </div>
+
+        <!--ПОДВАЛ LANG-->
+            <div class="lang">
+                <a href="#">RU</a>
+                <a href="#">EN</a>
+                <a href="#">CH</a>
+            </div>
+
+        </footer>
+
+    </div>
 </body>
+
 </html>
