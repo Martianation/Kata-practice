@@ -2,6 +2,7 @@ body  {
     margin: 0;
     padding: 0;
     background-color: #FFFFFF;
+    overflow-y: scroll;
 }
 
 .aside-menu {
@@ -10,6 +11,7 @@ body  {
   width: 320px;
   box-shadow: 0 0 60px -20px #454F7E;
   position: fixed;
+  height: 100%;
 }
 
 .button {
@@ -76,6 +78,18 @@ body  {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+}
+
+.nav-menu {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu-item {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-top: 24px;
 }
 
 .main-menu-block a {
@@ -178,7 +192,7 @@ a .highlight {
     color: black;
 }
 
-.lang-container__item {
+.lang-container-item {
     font-family: 'TTLakes-mail', sans-serif;
     font-size: 16px;
     margin-top: auto;
