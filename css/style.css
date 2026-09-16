@@ -126,7 +126,7 @@ body {
 }
 
 
-/*********************/
+/**********MEDIA***********/
 
 @media (max-width: 767px) {
     .upper-header {
@@ -162,6 +162,10 @@ body {
         display: none;
     }
 
+    .swiper-slide__button {
+        margin-right: 3vw;
+    }
+
     .upper-header {
         height: 56px;
         padding-left: 3vw;
@@ -185,7 +189,6 @@ body {
         display: flex;
         box-sizing: border-box;
         align-items: center;
-        margin-left: 3vw;
         margin-top: 40px;
     }
 }
@@ -196,10 +199,9 @@ body {
     }
 
     .swiper-slide__button {
-        margin-right: 3vw;
         width: 224px;
     }
-
+    
     .item-hidden,
     .item-hidden768 {
         display: none;
@@ -213,7 +215,6 @@ body {
 
 @media (min-width: 1120px) {
     .swiper-slide__button {
-        margin-right: 2vw;
         width: 240px;
     }
     
