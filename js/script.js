@@ -6,7 +6,7 @@ let menuItem = document.querySelectorAll('.menu-item');
 let slideClass = 'swiper-slide';
 
 function removeClassOnResize() {
-  if (window.innerWidth > 320) {
+  if (window.innerWidth > 767) {
     const elements = document.querySelectorAll(`.${slideClass}`);
     elements.forEach(el => el.classList.remove(slideClass));
   }
